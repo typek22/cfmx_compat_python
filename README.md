@@ -1,8 +1,8 @@
-# Python CFMX_COMPAT ColdFusion Encryption/Decryption
+# Python CFMX_COMPAT ColdFusion Encryption
 
-This project provides a Python implementation of the ColdFusion <a href="https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-e-g/encrypt.html">encrypt</a> and <a href="https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-c-d/Decrypt.html">decrypt</a> functions with the default configuration. This project provides the exact same functionality as ColdFusion's built-in encryption and decryption, ensuring compatibility for applications that need to work with ColdFusion-encrypted data.
+This project provides a Python implementation of the ColdFusion <a target="_blank" href="https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-e-g/encrypt.html">encrypt</a> and <a target="_blank" href="https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-c-d/Decrypt.html">decrypt</a> functions with the default configuration. This project provides the exact same functionality as ColdFusion's built-in encryption and decryption, ensuring compatibility for applications that need to work with ColdFusion-encrypted data.
 
-The implementation is based on the open-source <a href="https://github.com/getrailo/railo">Railo project</a>, ensuring accuracy and compatibility with ColdFusion's encryption standards.
+The implementation is based on the open-source <a target="_blank" href="https://github.com/getrailo/railo">Railo project</a>, ensuring accuracy and compatibility with ColdFusion's encryption standards.
 
 ⚠️ The CFMX_COMPAT algorithm, used in ColdFusion for encryption, is known for its significant security weaknesses. It should NOT be used for encryption of any data.
 
@@ -30,7 +30,7 @@ Instead, it can be used for:
 
 ### Run right away
 ```bash
-$ git clone https://github.com/typek22/cfmx_compat_python
+$ git clone https://github.com/typek22/cfmx_compat_python.git
 $ cd cfmx_compat_python
 $ python main.py
 ```
